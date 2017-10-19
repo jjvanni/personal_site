@@ -1,0 +1,140 @@
+/* 
+color scheme:
+	pale gold #c0b283
+	silk #dcd0c0
+	paper #f4f4f4
+	charcoal #373737
+
+font:
+
+*/
+
+
+body {
+	background-image: url("../img/pattern.png");
+	color: #f4f4f4;
+	margin: 0;
+	font-family: 'Josefin Slab', serif;
+}
+.highlight {
+	color: #373737;
+}
+.navbar {
+	background: #c0b283;
+	color: #f4f4f4;
+	margin: 0;
+	padding:  10px 0 2.5px 0;
+	height: 50px;
+	
+}
+.navbar_header {
+	position: absolute;
+	float: left;
+}
+h1 {
+	margin-top: 5px;
+	margin-left: 30px;
+	font-size: 28px;
+}
+.navbar_links {
+	position: relative;
+	float: right;
+}
+.pg_links {
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+li {
+	font-size: 22px;
+	display: inline;
+	padding: 0 5px;
+}
+.container {
+	height: 450px;
+	margin: 0 auto;
+}
+.about {
+	width: 50%;
+	float: left;
+	position: relative;
+	margin: 55px 2.5% 0 2.5%;
+}
+.about_title {
+	font-size: 42px;
+}
+p {
+	font-size: 20px;
+}
+.pic {
+	width: 30%;
+	float: right;
+	position: relative;
+	margin-right: 10%;
+	margin-top: 60px;
+	max-width: 350px;
+}
+img {
+	max-height: 350px;
+	width: 100%;
+	border-radius: 30px;
+}
+a {
+	color: #f4f4f4;
+	text-decoration: none;
+}
+.past_title {
+	text-align: center;
+}
+#past_title {
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+.past_jobs {
+	width: 28%;
+	float: left;
+	margin: 10px 2.5% 50px 2.5%;
+}
+.job_title {
+	font-size: 16px;
+	margin-top: 2px;
+}
+small {
+	font-size: 12px;
+}
+.past_company {
+	margin-bottom: 2px;
+}
+.portfolio_header {
+	text-align: center;
+	margin-top: 80px;
+}
+.portfolio_title {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 62px;
+}
+.portfolio_subtitle {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.portfolio_work {
+	margin: 80px 50px;
+}
+.experience_details {
+	margin: 30px;
+}
+.work {
+	margin: 0 auto;
+}
+.worklist {
+	margin: 0 auto;
+}
+.work {
+	width: 28%;
+	float: left;
+	margin: 10px 2.5%;
+}
+.screenshot {
+	height: 350px;
+}
